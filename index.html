@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+        <style>
+
+            
+
+            @import url('https://fonts.cdnfonts.com/css/chalkduster');
+
+            html, body {
+                background-color: #E9EAEB;
+                width: 320px;
+                height: 360px;
+                margin: 0;
+                padding: 0;
+                font-family: century-gothic, sans-serif;
+            }
+            ::-webkit-scrollbar {
+                display: none;
+            }
+            .container::-webkit-scrollbar { 
+                display: none;  /* Safari and Chrome */
+            }
+            h1 {
+                margin: 0;
+                padding: 0;
+                color: #474A2C;
+                font-family: century-gothic, sans-serif;
+            }
+
+            h2 {
+                margin: 0;
+                padding: 0;
+                color: #474A2C;
+                font-family: century-gothic, sans-serif;
+                font-size: x-small;
+            }
+
+            button {
+              display: inline-block;
+              background-color: transparent;
+              padding: 4px;
+              height: 34px;
+              width: 60px;
+              color: #000000;
+              font-size: 12px;
+              text-align: center;
+              font-family: century-gothic, sans-serif;
+              font-weight: 600;
+              line-height: 1.5;
+              border-color: #000000;
+              border-radius: 10px;
+              border-width: 1px;
+              
+            }
+
+            img {
+                border-radius: 17%;
+            }
+            div{
+                height: 65px;
+            }
+            
+            textarea {
+              display: inline-block;
+              background-color: #ffffff;
+              width: 250px;
+              height: 300px;
+              color: #474A2C;
+              font-size: 12px;
+              text-align: center;
+              font-family: century-gothic, sans-serif;
+              font-weight: 600;
+              line-height: 1;
+              margin-top: 1.5rem;
+              border-radius: 5px;
+                
+                
+                
+            }
+
+            input[type=file]::file-selector-button {
+                margin-right: 20px;
+                border: none;
+                background: #4A4F56;
+                padding: 10px 20px;
+                border-radius: 10px;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            input[type=file]::file-selector-button:hover {
+                background: #4A4F56;
+            }
+
+
+            h2 {text-align: center;}
+            div {text-align: center;} 
+            input {text-align: center;}
+            div { position: relative; }
+          </style>
+        <script src="index.js" defer></script>
+     
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Timage</title>
+    </head>
+    
+    <body>
+        
+        <div>
+            <img id="imgHome" style = "position:relative; top:8px; align-items: center;" src="Timage.png" width="50" height="50">
+        </div>
+        <h1 style = "position:relative; top:5px; text-align: center;" >Timage </h1>
+        <h2 style = "position:relative; top:5px; text-align: center;">Translate any text into English!</h2>
+
+
+        <div id="inputdiv">
+            <textarea id="input" >Place Text Here</textarea>
+            <div >
+                <button id="submit" style="position:relative; top:30px; ">Submit</button>
+            </div>
+        </div>
+
+
+            
+
+        <div id="response" style="visibility: hidden;">
+            <button id="text" style="float: left; position:relative; left:90px; bottom: 45px; background-color: #DBDCDD;">Text</button>
+            <button id="arr" style="float: right; position:relative; right:90px; bottom:45px; background-color: #888888;">Array</button>
+            <textarea id="output" style="background-color: #F4F5F5; position:relative; bottom:55px;"></textarea>
+        </div>
+        
+
+       
+        
+    </body>
+</html>

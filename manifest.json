@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Timage",
+  "description": "Translate any text into English!",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "Timage.png"
+  }
+}
